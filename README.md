@@ -111,6 +111,8 @@ location @router {
       3.若你使用Apache
       - 抱歉请您切换到IIS或Nginx，或请耐心等待docker容器发布
 
+# 详细设置
+将在不久后发布
 
 # Github社区讨论
 项目已开通专属社区,主要集中开发者计划、BUG反馈、新功能建议等，欢迎积极参与讨论，[点此进入](https://github.com/HuYihe2008/JYDmirra/discussions) 
