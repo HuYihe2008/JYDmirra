@@ -23,11 +23,11 @@ jobs:
       - name: Packaging
         run: |
           cd dist
-          zip -r ../mira-release.zip *
+          zip -r ../JYDmirra-release.zip *
           cd ..
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.RELEASE_PKG_TOKEN }}"
           prerelease: false
-          files: mira-release.zip
+          files: JYDmirra-release.zip
