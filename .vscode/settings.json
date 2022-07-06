@@ -1,0 +1,10 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "bounded",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true
+}

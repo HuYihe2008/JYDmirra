@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "Start development server"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "Build for production"
+		},
+		{
+			"type": "npm",
+			"script": "prebuild",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: prebuild",
+			"detail": "Build for Github Pages"
+		},
+		{
+			"type": "npm",
+			"script": "serve",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: serve",
+			"detail": "Preview"
+		}
+	]
+}

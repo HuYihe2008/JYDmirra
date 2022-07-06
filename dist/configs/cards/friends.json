@@ -1,0 +1,20 @@
+{
+  "title": "友情链接",
+  "links": [
+    {
+      "title": "MengQiongOS官网",
+      "url": "https://bitmq.jamyido.ml/",
+      "icon": "home"
+    },
+    {
+      "title": "MengQiongOS社区",
+      "url": "https://bbs.bitmq.jamyido.ml/",
+      "icon": "chatbubbles"
+    },
+    {
+      "title":"MengQiongOS预览体验计划",
+      "url":"https://bitmq-yvlan.jamyido.ml/",
+      "icon":"eye"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "distro": "MengQiongOS-Dev-os", 
+        "category": "os", 
+        "urls": 
+        [
+            {
+                "name": "2022.07.05 v3.0 (ppsx, CLI-only)", 
+                "url": "http://ftp.jamyido.ml/CloudMengQiongOS/Dev/Meng%20Qiong%20OS%203.0%20(Closed%20Source)%20.ppsx"
+                
+            }
+        ]
+        
+    },
+    {
+        "distro": "MengQiongOS-Dev-app", 
+        "category": "app", 
+        "urls": 
+        [
+            {
+                "name": "2022.07.05 (ppsx, CLI-only)", 
+                "url": "http://ftp.jamyido.ml/CloudMengQiongOS/Dev/Meng%20Qiong%20OS%203.0%20(Closed%20Source)%20.ppsx"
+                
+            }
+        ]
+        
+    },
+    {
+        "distro": "MengQiongOS-Dev-font", 
+        "category": "font", 
+        "urls": 
+        [
+            {
+                "name": "2022.07.05 (ppsx, CLI-only)", 
+                "url": "http://ftp.jamyido.ml/CloudMengQiongOS/Dev/Meng%20Qiong%20OS%203.0%20(Closed%20Source)%20.ppsx"
+                
+            }
+        ]
+    }
+]
