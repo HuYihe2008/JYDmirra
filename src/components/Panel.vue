@@ -59,7 +59,7 @@ async function handleClick(link: NewsEntry) {
           >
         </n-row>
       </n-tab-pane>
-      <n-tab-pane name="LUG Jokes">
+      <n-tab-pane name="Jokes">
         <n-row v-for="link in jokes" :key="link.title">
           <n-button text tag="a" :href="link.web_url" target="_blank">{{
             link.title
