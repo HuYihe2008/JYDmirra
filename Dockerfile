@@ -1,5 +1,4 @@
-FROM python:3.9-slim
-FROM nginx:1.22
+FROM python:3.8-slim
 FROM node:latest
 
 LABEL 维护者="JamYido2812856215@qq.com"
