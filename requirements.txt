@@ -1,3 +1,2 @@
 glob2
-os
-shutil
+pycopy-shutil
