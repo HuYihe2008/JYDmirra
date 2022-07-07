@@ -5,6 +5,8 @@ LABEL 维护者="JamYido2812856215@qq.com"
 
 WORKDIR /usr/src/app
 
+RUN apt-get update && apt-get install -y \
+    python-pip
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
