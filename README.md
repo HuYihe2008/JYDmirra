@@ -126,7 +126,7 @@ location @router {
 - ### 第二部 
   安装并启动完毕后输入如下命令拉取（docker版目前正处于dev阶段测试，不保证稳定性）  
   ```
-  docker pull huyihe/jydmirra:dev
+  docker pull huyihe/jydmirra:latest
   ```
 - ### 第三步 创建静态数据目录
   ```
@@ -134,9 +134,10 @@ location @router {
   ```
 - ### 第四步 拷贝静态目录数据至服务器静态目录
   ```
-  docker run -p 5000:5000 \
-  --name jydmirra \
-  huyihe/jydmirra:dev
+  docker run -d \
+    -p 5000:5000 \
+    --name=jydmirra \
+    huyihe/jydmirra:latest
   ```
   ```
   docker cp -a jydmirra:/usr/src/app/dist /your/path/jydmirra/dist
@@ -150,8 +151,8 @@ location @router {
     -p 5000:5000 \
     --restart=always \
     --name=jydmirra \
-    -v /opt/jydmirra:/usr/src/app/dist \
-    huyihe/jydmirra:dev
+    -v /your/path/jydmirra/dist:/usr/src/app/dist \
+    huyihe/jydmirra:latest
   ```
 - ### 访问 http://IP:5000 即可使用
 
