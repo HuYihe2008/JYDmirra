@@ -2,7 +2,7 @@ name: 自动化构建Docker镜像
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   push_to_registry:
@@ -16,7 +16,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: huyihe/jydmirra
-          tag: dev
+          tag: master
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
