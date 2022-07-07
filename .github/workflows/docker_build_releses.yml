@@ -1,5 +1,4 @@
-name: 自动化构建Docker镜像
-
+name: 自动化构建Docker版本号镜像
 on:
   push:
     tags:
@@ -19,8 +18,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: huyihe/jydmirra
-          tag: 
-            - v*
+          tag: ${GITHUB_REF##*/}
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
