@@ -2,7 +2,7 @@ name: 自动化构建Docker镜像
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
 
 jobs:
   push_to_registry:
