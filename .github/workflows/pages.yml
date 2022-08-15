@@ -39,6 +39,8 @@ jobs:
           npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+        with: 
+          folder: dist
 
   # Deployment job
   deploy:
@@ -52,4 +54,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with: 
-          foder: dist
+          folder: dist
